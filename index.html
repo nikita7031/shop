@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <section class="main">
+            <div class="container">
+                <header class="header">
+                    <div class="header__left">
+                        <div class="logo">
+                            <a href="#" class="logo__link">
+                                <img src="./img/icon/logo.png" alt="logo" class="logo__pic">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="header__right">
+                        <nav class="nav">
+                            <ul class="nav__list">
+                                <li class="nav__item">
+                                    <a href="#" class="nav__link">Home</a>
+                                </li>
+                                <li class="nav__item">
+                                    <a href="#" class="nav__link">Products</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <div class="cart">
+                            <a href="#" class="cart__link">
+                                <img src="./img/icon/shopping-cart.png" alt="cart" class="nav__img">
+                            </a>
+                        </div>
+                    </div>
+                </header>
+                <div class="main__content">
+                    <div class="main__text">
+                        <h1 class="main__title">Our clothing, your comfort</h1>
+                        <div class="main__desc">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </div>
+                    </div>
+                </div>
+                <div class="down">
+                    <a href="#" class="down__link">
+                        <img class="down__btn" src="./img/icon/chevron-down.png" alt="down">
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="product">
+            <div class="product__filter">
+                <ul class="product__filter-list">
+                    <li class="product__filter-item">
+                        <label>
+                            <input type="checkbox" class="product__filter-gender">
+                            <div class="fake_checkbox"></div>
+                            <span class="product__filter-gender-text">men</span>
+                        </label>
+                    </li>
+                    <li class="product__filter-item">
+                        <label>
+                            <input type="checkbox" class="product__filter-gender">
+                            <div class="fake_checkbox"></div>
+                            <span class="product__filter-gender-text">women</span>
+                        </label>
+                    </li>
+                    <li class="product__filter-item">
+                        <label>
+                            <input type="checkbox" class="product__filter-gender">
+                            <div class="fake_checkbox"></div>
+                            <span class="product__filter-gender-text">children</span>
+                        </label>
+                    </li>
+                </ul>
+                <div class="product__filter-button">
+                    <a href="#" class="product__filter-link">
+                        see all products
+                    </a>
+                </div>
+            </div>
+            <ul class="product__list">
+                <!--Список товаров-->
+                <li class="product__item">
+                    <!--Товары для мужчин-->
+                    <div class="product__separator">
+                        <!--Разделитель-->
+                        <span class="product__separator-text">men</span>
+                        <div class="product__separator-line"></div>
+                    </div>
+                    <div class="product__switch-content product__switch-content_men">
+                        <!--Переключатель-->
+                        <div class="product__indicator-page">
+                            <span class="product__indicator-page"> 1 </span>
+                            <span class="product__indicator-slash">&#47;</span>
+                            <span class="product__indicator-page"> 5 </span>
+                        </div>
+                        <div class="product__paginator">
+                            <a class="product__prev-page">
+                                <img src="img/icon/chevron-left.png" alt="" class="product__paginator-pic">                                    
+                            </a>
+                            <a class="product__next-page">    
+                                <img src="img/icon/chevron-right.png" alt="" class="product__paginator-pic">
+                            </a>
+                        </div> 
+                    </div>
+                    <ul class="product__element-list">
+                        <!--Футболка-->
+                        <li class="product__element-item">
+                            <div class="product__element-header">
+                                <div class="product__element-size">
+                                    <span class="product__element-size-text">
+                                        size
+                                    </span>
+                                    <img src="img/icon/angle-down.png" alt="angle_down"
+                                        class="product__element-size-img">
+                                </div>
+                                <ul class="product__element-color-list">
+                                    <li class="product__element-color product__element-color_blue">
+                                        <a href="#" class="product__element-color-link product__element-color-link_blue">
+                                        </a>
+                                    </li>
+                                    <li class="product__element-color product__element-color_yellow">
+                                        <a href="#" class="product__element-color-link product__element-color-link-yellow">
+                                        </a>
+                                    </li>
+                                    <li class="product__element-color product__element-color_grey">
+                                        <a href="#" class="product__element-color-link product__element-color-link-grey">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="product__element-img">
+                                <img src="img/product/t-shirt.png" alt="tshirt" class="product__element-pic">
+                            </div>
+                            <div class="product__element-footer">
+                                <div class="product__element-name">
+                                    t-shirt
+                                </div>
+                                <div class="product__element-price">
+                                    <span class="product__element-sum">
+                                        5,00
+                                    </span>
+                                    <span class="product__element-currency">
+                                        &euro;
+                                    </span>
+                                </div>
+                            </div>
+                        </li>
+                        <!--Штаны-->
+                        <li class="product__element-item">
+                            <div class="product__element-header">
+                                <div class="product__element-size">
+                                    <span class="product__element-size-text">
+                                        size
+                                    </span>
+                                    <img src="img/icon/angle-down.png" alt="angle_down"
+                                        class="product__element-size-img">
+                                </div>
+                            </div>
+                            <div class="product__element-img">
+                                <img src="img/product/pants_forclaz.png" alt="pants" class="product__element-pic">
+                            </div>
+                            <div class="product__element-footer">
+                                <div class="product__element-name">
+                                    pants forclaz
+                                </div>
+                                <div class="product__element-price">
+                                    <span class="product__element-sum">
+                                        30,00
+                                    </span>
+                                    <span class="product__element-currency">
+                                        &euro;
+                                    </span>
+                                </div>
+                            </div>
+                        </li>
+                        <!--Рюкзак-->
+                        <li class="product__element-item">
+                            <div class="product__element-header">
+                                <!--Размер-->
+                                <div class="product__element-size">
+                                    <span class="product__element-size-text">
+                                        10litri
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="product__element-img">
+                                <img src="img/product/backpack.png" alt="backpack" class="product__element-pic">
+                            </div>
+                            <div class="product__element-footer">
+                                <div class="product__element-name">
+                                    backpack
+                                </div>
+                                <div class="product__element-price">
+                                    <span class="product__element-sum">
+                                        60,00
+                                    </span>
+                                    <span class="product__element-currency">
+                                        &euro;
+                                    </span>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+                <li class="product__item">
+                    <!--Товары для женщин-->
+                    <div class="product__separator product__separator_rev">
+                        <!--Разделитель-->
+                        <span class="product__separator-text product__separator-text_women">women</span>
+                        <div class="product__separator-line"></div>
+                    </div>
+                    <div class="product__switch-content">
+                        <!--Переключатель-->
+                        <div class="product__indicator-page">
+                            <span class="product__indicator-page"> 1 </span>
+                            <span class="product__indicator-slash">&#47;</span>
+                            <span class="product__indicator-page"> 5 </span>
+                        </div>
+                        <div class="product__paginator">
+                            <a class="product_prev-page">
+                                <img src="img/icon/chevron-left.png" alt="" class="product__paginator-pic">
+                            </a>
+                            <a class="product_next-page">
+                                <img src="img/icon/chevron-right.png" alt="" class="product__paginator-pic">
+                            </a>
+                        </div>
+                    </div>
+                    <ul class="product__element-list">
+                        <!--Куртка-->
+                        <li class="product__element-item">
+                            <div class="product__element-header">
+                                <div class="product__element-size">
+                                    <span class="product__element-size-text">
+                                        size
+                                    </span>
+                                    <img src="img/icon/angle-down.png" alt="angle_down" class="product__element-size-img">
+                                </div>
+                            </div>
+                            <div class="product__element-img">
+                                <img src="img/product/giacket.png" alt="giacket" class="product__element-pic">
+                            </div>
+                            <div class="product__element-footer">
+                                <div class="product__element-name">
+                                    giacket
+                                </div>
+                                <div class="product__element-price">
+                                    <span class="product__element-sum">
+                                        60,00
+                                    </span>
+                                    <span class="product__element-currency">
+                                        &euro;
+                                    </span>
+                                </div>
+                            </div>
+                        </li>
+                        <!--Ботинки-->
+                        <li class="product__element-item">
+                            <div class="product__element-header">
+                                <div class="product__element-size">
+                                    <span class="product__element-size-text">
+                                        size
+                                    </span>
+                                    <img src="img/icon/angle-down.png" alt="angle_down" class="product__element-size-img">
+                                </div>
+                            </div>
+                            <div class="product__element-img">
+                                <img src="img/product/trekking_shoes.png" alt="shoes" class="product__element-pic">
+                            </div>
+                            <div class="product__element-footer">
+                                <div class="product__element-name">
+                                    trekking shoes
+                                </div>
+                                <div class="product__element-price">
+                                    <span class="product__element-sum">
+                                        80,00
+                                    </span>
+                                    <span class="product__element-currency">
+                                        &euro;
+                                    </span>
+                                </div>
+                            </div>
+                        </li>
+                        <!--Футболка-->
+                        <li class="product__element-item">
+                            <div class="product__element-header">
+                                <div class="product__element-size">
+                                    <span class="product__element-size-text">
+                                        size
+                                    </span>
+                                    <img src="img/icon/angle-down.png" alt="angle_down" class="product__element-size-img">
+                                </div>
+                                <ul class="product__element-color-list">
+                                    <li class="product__element-color product__element-color_pink">
+                                        <a href="#" class="product__element-color-link product__element-color-link_pink">
+                                        </a>
+                                    </li>
+                                    <li class="product__element-color product__element-color_white">
+                                        <a href="#" class="product__element-color-link product__element-color-link_white">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="product__element-img">
+                                <img src="img/product/t-shirt2.png" alt="tshirt" class="product__element-pic">
+                            </div>
+                            <div class="product__element-footer">
+                                <div class="product__element-name">
+                                    t-shirt
+                                </div>
+                                <div class="product__element-price">
+                                    <span class="product__element-sum">
+                                        20,00
+                                    </span>
+                                    <span class="product__element-currency">
+                                        &euro;
+                                    </span>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+        <div class="about_us">
+            <div class="about_us__frame">
+                <div class="about_us__header">
+                    about us
+                </div>
+                <div class="about_us__text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer__up">
+            <div class="footer__up-twitter-img">
+                <img src="img/icon/twitter.png" alt="twitter">
+            </div class="footer__up-text">
+                “ E-commerce psd theme available ”
+            </div>
+        </div>
+        <div class="footer__down">
+            <div class="footer__down-left">
+                <div class="footer__down-left-header">
+                    trekking
+                </div>
+                <div class="footer__down-left-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </div>
+            </div>
+            <div class="footer__down-right">
+                <ul class="footer__down-links-row">
+                    <li class="footer__down-links">
+                        credits
+                    </li>
+                    <li class="footer__down-links">
+                        privacy
+                    </li>
+                    <li class="footer__down-links">
+                        about
+                    </li>
+                    <li class="footer__down-links">
+                        contact
+                    </li>
+                </ul>
+                <div class="footer__down-designed">
+                    Design by gianluca cosetta
+                </div>                
+            </div>
+        </div>
+    <footer>
+</body>
+</html>
